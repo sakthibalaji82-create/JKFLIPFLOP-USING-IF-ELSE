@@ -47,7 +47,7 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 **PROGRAM**
 
 
-
+```
 module exp7(j,k,clk,q,qbar);
 input j,k,clk;
 output reg q,qbar;
@@ -63,6 +63,7 @@ q<=(j&~q)|(~k&q);
 qbar<=~q;
 end
 endmodule
+```
 
 DEVELOPED BY:MAGHESH.S
 REG NO:25014866
